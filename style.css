@@ -1,0 +1,72 @@
+body {
+  font-family: 'Inter', sans-serif, system-ui;
+}
+
+/* general element selectors here */
+/* selectors in order here */
+
+/* Add custom fonts here */
+
+/* Modified css reset by Josh Comeau
+Link: https://www.joshwcomeau.com/css/custom-css-reset/ */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+*:not(dialog) {
+  margin: 0;
+}
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+}
+input, button, textarea, select {
+  font: inherit;
+}
+p, h1, h2, h3, h4, h5, h6 {
+  overflow-wrap: break-word;
+}
+p {
+  text-wrap: pretty;
+}
+h1, h2, h3, h4, h5, h6 {
+  text-wrap: balance;
+}
+
+/* Modern css boilerplate by Daniel Schwarz
+Link: https://blog.logrocket.com/what-should-modern-css-boilerplate-look-like/ */
+* {
+  border: none;
+}
+menu:not(article menu),
+ol:not(article ol),
+ul:not(article ul) {
+    list-style: none;
+}
+menu,
+ol,
+ul {
+    padding-left: 0;
+}
+article ol,
+article ul {
+    list-style-position: inside;
+}
+html {
+  font-size: 62.5%; /* (62.5/100) * 16px = 10px */
+}
+:focus:not(:focus-visible) {
+  outline: none;
+}
+label,
+button,
+select,
+summary,
+[type=radio],
+[type=submit],
+[type=checkbox] {
+    cursor: pointer;
+}
