@@ -1,11 +1,22 @@
 body {
-  font-family: 'Inter', sans-serif, system-ui;
+  font-family: sans-serif, system-ui;
 }
 
 /* general element selectors here */
 /* selectors in order here */
+.logo {
+    font-family: 'Bitcount Single';
+}
 
 /* Add custom fonts here */
+@font-face {
+    font-family: 'Bitcount Single';
+    src: url('./fonts/BitcountSingle-Regular.woff2') format('woff2'),
+        url('./fonts/BitcountSingle-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
 
 /* Modified css reset by Josh Comeau
 Link: https://www.joshwcomeau.com/css/custom-css-reset/ */
