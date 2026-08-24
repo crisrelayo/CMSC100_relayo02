@@ -1,9 +1,33 @@
 body {
-  font-family: sans-serif, system-ui;
+    min-height: 100vh;
+
+    font-family: sans-serif, system-ui;
 }
 
 /* general element selectors here */
+a {
+    text-decoration: none;
+
+    color: inherit;
+}
+
 /* selectors in order here */
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 3rem;
+}
+
+.header.logo {
+    padding: 0;
+}
+
+.header-nav {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+
 .logo {
     font-family: 'Bitcount Single';
 }
