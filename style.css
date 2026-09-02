@@ -95,18 +95,31 @@ p {
 .project-container {
   display: flex;
   flex-flow: row wrap;
+  align-items: start;
   gap: 2rem;
 }
 
 .project-card {
   max-width: 40vw;
+  /* max-height: 30vh; */
   padding: 1rem;
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 2rem;
 
   border: solid;
   border-radius: 10px;
+}
+
+.project-card > img {
+  align-self: center;
+  max-width: 30vw;
+  border-radius: 10px;
+}
+
+.project-card > p {
+  padding-top: 1.5rem;
+  border-top: solid var(--white);
 }
 
 .skill-container {
