@@ -32,6 +32,22 @@ a {
     font-family: 'Bitcount Single';
 }
 
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 1rem;
+  padding: 1rem 3rem;
+}
+
+.main h1 {
+  margin-bottom: 0.5rem;
+}
+
+.main > div {
+  padding: 1rem;
+}
+
 .main-photo {
     display: flex;
     flex-direction: column;
@@ -39,7 +55,29 @@ a {
 }
 
 .main-photo > img {
-    width: 50vw;
+  width: 40vw;
+}
+
+.project-container {
+  display: flex;
+  flex-flow: row wrap;
+  gap: 1rem;
+}
+
+.project-card {
+  min-width: 25rem;
+  padding: 1rem;
+}
+
+.skill-container {
+  display: flex;
+  flex-flow: row wrap;
+  gap: 1rem;
+}
+
+.skill-card {
+  min-width: 15rem;
+  padding: 1rem;
 }
 
 /* Add custom fonts here */
